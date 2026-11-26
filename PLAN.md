@@ -19,7 +19,7 @@ Demo scene: shopping with full hands, the crew asks "Can you arrive in five minu
 ## Where to look
 
 - `README.md` — overview, how to run, who it is for.
-- `src/`, `server/`, `tests/` — the app, the Bot API adapter, and the tests.
+- `src/`, `server/`, `test/` — the app, the Bot API adapter, and the tests.
 - `art/` — logos.
 
 ## Design notes
