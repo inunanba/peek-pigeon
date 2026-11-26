@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Peek Pigeon: a confirmation-first Telegram reply flow for Even Realities G2." />
+    <title>Peek Pigeon</title>
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="%BASE_URL%art/pigeon-green.svg" alt="Peek Pigeon" />
+        <div><p class="eyebrow">EVEN G2 × TELEGRAM</p><h1>Peek Pigeon</h1></div>
+        <span id="transport" class="pill">MOCK</span>
+      </header>
+      <section class="glasses" aria-label="G2 monochrome preview">
+        <div id="g2" role="status" aria-live="polite"></div>
+      </section>
+      <section class="controls" aria-label="R1 input simulator">
+        <button id="previous" type="button">◀ Previous</button>
+        <button id="tap" class="primary" type="button">Tap</button>
+        <button id="next" type="button">Next ▶</button>
+      </section>
+      <p id="hint" class="hint"></p>
+      <details><summary>Fixture controls</summary><button id="new-message" type="button">Receive another message</button></details>
+    </main>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>

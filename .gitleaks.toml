@@ -1,0 +1,12 @@
+# Allow only obvious test fixtures. Never add a real token here.
+title = "Peek Pigeon allowlist"
+
+[[allowlists]]
+description = "Documented Telegram-shaped fixture used only in unit tests and the credentials-free 100-run script"
+paths = [
+  '''test/telegram-transport\.test\.js''',
+  '''scripts/mock-100-run\.mjs''',
+]
+regexes = [
+  '''123456:fixture_token''',
+]

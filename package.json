@@ -1,0 +1,30 @@
+{
+  "name": "peek-pigeon",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node --test",
+    "check": "npm test && npm run build",
+    "automation": "node scripts/simulator-automation.mjs",
+    "validate:100": "node scripts/mock-100-run.mjs"
+  },
+  "dependencies": {
+    "@evenrealities/even_hub_sdk": "0.0.16"
+  },
+  "devDependencies": {
+    "@evenrealities/evenhub-simulator": "0.9.5",
+    "typescript": "5.9.3",
+    "vite": "7.3.8"
+  },
+  "description": "Hands-light Telegram reply flow for Even Realities G2: glance, choose, confirm, reply.",
+  "license": "MIT",
+  "author": "inunanba",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inunanba/peek-pigeon.git"
+  },
+  "homepage": "https://inunanba.github.io/peek-pigeon/"
+}
